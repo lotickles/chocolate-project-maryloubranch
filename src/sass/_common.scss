@@ -6,7 +6,6 @@
   --orange: #fd9222;
   --dirty-white: #fafafa;
   --white: #fff;
-  --montserrat: var(--montserrat);
 }
 * {
   margin: 0;
@@ -16,6 +15,7 @@
 
 body {
   height: 100vh;
+  font-family: Montserrat;
 }
 
 img {

@@ -1,1 +1,28 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  --black: #111;
+  --grey: #1e1823;
+  --orange: #fd9222;
+  --dirty-white: #fafafa;
+  --white: #fff;
+  --montserrat: var(--montserrat);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}

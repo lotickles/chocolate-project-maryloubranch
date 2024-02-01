@@ -6,6 +6,9 @@
   position: relative;
   flex: 1 1 0%;
   max-width: 308px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .container-advantages {
   display: flex;
@@ -74,9 +77,8 @@
   color: #fff;
   font-family: Montserrat;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  line-height: 21.94px;
   padding: 22px 0 18px;
 }
 .description {

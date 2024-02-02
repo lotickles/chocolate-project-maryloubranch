@@ -23,6 +23,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.content {
+  display: flex;
+  flex-flow: column;
+  gap: 72px 0;
+}
 .list {
   list-style: none;
 }
